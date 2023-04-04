@@ -20,7 +20,7 @@ Router.get("/getuserbyid/:id", getUserById, ErrorHandling);
 Router.post("/updateuser", VerifyToken, updateUser, ErrorHandling);
 Router.delete("/:id", DeleteUser, ErrorHandling);
 Router.get("/welcome", (req, res) => {
-  res.status(200).send("Welcome User Usman is the Mangoeycjh");
+  res.status(200).send("Welcome User Usman is the besttttttt USMAN ACCOUNBT");
 });
 
 export default Router;
