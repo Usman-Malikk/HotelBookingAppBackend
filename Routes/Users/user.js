@@ -19,10 +19,8 @@ Router.get("/getalluser", GetAllUser, ErrorHandling);
 Router.get("/getuserbyid/:id", getUserById, ErrorHandling);
 Router.post("/updateuser", VerifyToken, updateUser, ErrorHandling);
 Router.delete("/:id", DeleteUser, ErrorHandling);
-Router.get('/welcome',(req,res)=>
-{
-  res.status(200).send('Welcome User')
-})
-
+Router.get("/welcome", (req, res) => {
+  res.status(200).send("Welcome User");
+});
 
 export default Router;
